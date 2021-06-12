@@ -3,7 +3,6 @@ import React,{useEffect, useState}from 'react';
 const ListOfUsers1=()=>{
 
     const [user,setUser]=useState([]);
-    const [newUser,SetnewUser]=useState([]);
 
     const getUsers=async()=>{
 
